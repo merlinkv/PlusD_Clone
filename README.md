@@ -30,3 +30,8 @@ The Advantege of this interfaz over the original are:
 * Reset Button
 * Posibility of use crossed and plain floppy cable, and invert Drive 1 and Drive 2, very usefull if you have a Gotek and a real floppy.
 
+# Links
+
+* https://github.com/alvaroalea/plusD-clone
+
+
