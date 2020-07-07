@@ -1,6 +1,20 @@
-# PlusD_Clone_MOD
+# PlusD_Clone_MOD 1.2
 
 A MOD of the PlusD clone made by alvaroalea
+
+WORK IN PROGRESS i CAN'T GARANTEE THAT IT WORKS AT THE MOMENT !!
+
+# July 6, 2020
+
+* Added a SPDT switch ON-ON to select between ZX 48K/128K & +2A/+3
+* Inversion od Drive 1 and Drive 2 now is made by a DPDT Switch (ABBA)
+* Now the IC12 (L7805) can be placed horizontally
+* Relocation of LEDS, NMI and RESET pushbuttons and some IC's
+* Added three 3M holes (3.5mm) to facilitats the fixation on a case
+* Kempston Joystick connector now is horizontal
+* Changed the DIP switch for ROM selection and Joystick ON-OFF for a DIP Switch Piano style.
+* Electrolytic capacitors are now SMD
+
 
 # Original description by alvaroalea
 
