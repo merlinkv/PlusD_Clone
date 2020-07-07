@@ -10,7 +10,7 @@ WORK IN PROGRESS I CAN'T GARANTEE THAT IT WORKS AT THE MOMENT !!
 * Inversion od Drive 1 and Drive 2 now is made by a DPDT Switch (ABBA)
 * Now the IC12 (L7805) can be placed horizontally
 * Relocation of LEDS, NMI and RESET pushbuttons and some IC's
-* Added three 3M holes (3.5mm) to facilitats the fixation on a case
+* Added three 3M holes (3.5mm) to facilitate the fixation on a case
 * Kempston Joystick connector now is horizontal
 * Changed the DIP switch for ROM selection and Joystick ON-OFF for a DIP Switch Piano style.
 * Electrolytic capacitors are now SMD
