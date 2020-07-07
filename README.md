@@ -7,7 +7,7 @@ WORK IN PROGRESS I CAN'T GARANTEE THAT IT WORKS AT THE MOMENT !!
 # July 6, 2020
 
 * Added a SPDT switch ON-ON to select between ZX 48K/128K & +2A/+3
-* Inversion od Drive 1 and Drive 2 now is made by a DPDT Switch (ABBA)
+* Inversion of Drive 1 and Drive 2 now is made by a DPDT Switch (ABBA)
 * Now the IC12 (L7805) can be placed horizontally
 * Relocation of LEDS, NMI and RESET pushbuttons and some IC's
 * Added three 3M holes (3.5mm) to facilitate the fixation on a case
