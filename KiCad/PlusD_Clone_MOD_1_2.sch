@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:PlusD_Clone_MOD_1_2-cache
 EELAYER 30 0
 EELAYER END
 $Descr A3 16535 11693
@@ -112,12 +111,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR018
 U 1 1 5B1CA321
-P 6100 3300
-F 0 "#PWR018" H 6100 3050 50  0001 C CNN
-F 1 "GND" H 6105 3127 50  0000 C CNN
-F 2 "" H 6100 3300 50  0001 C CNN
-F 3 "" H 6100 3300 50  0001 C CNN
-	1    6100 3300
+P 6100 3250
+F 0 "#PWR018" H 6100 3000 50  0001 C CNN
+F 1 "GND" H 6105 3077 39  0000 C CNN
+F 2 "" H 6100 3250 50  0001 C CNN
+F 3 "" H 6100 3250 50  0001 C CNN
+	1    6100 3250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -345,7 +344,7 @@ L power:GND #PWR029
 U 1 1 5B604802
 P 11050 11050
 F 0 "#PWR029" H 11050 10800 50  0001 C CNN
-F 1 "GND" H 11055 10877 50  0000 C CNN
+F 1 "GND" H 11055 10877 39  0000 C CNN
 F 2 "" H 11050 11050 50  0001 C CNN
 F 3 "" H 11050 11050 50  0001 C CNN
 	1    11050 11050
@@ -574,49 +573,16 @@ Connection ~ 10100 8750
 Wire Wire Line
 	10100 8750 10000 8750
 Wire Wire Line
-	8150 6800 8550 6800
-Wire Wire Line
-	8150 6900 8550 6900
-Wire Wire Line
-	8150 7000 8550 7000
-Wire Wire Line
-	8150 7100 8550 7100
-Wire Wire Line
-	8150 7200 8450 7200
-Wire Wire Line
-	8150 7300 8550 7300
-Wire Wire Line
-	8150 7400 8550 7400
-Wire Wire Line
-	8150 7500 8550 7500
-Text Label 8300 6800 0    50   ~ 0
-D1
-Text Label 8300 6900 0    50   ~ 0
-D2
-Text Label 8300 7000 0    50   ~ 0
-D5
-Text Label 8300 7100 0    50   ~ 0
-D6
-Text Label 8300 7200 0    50   ~ 0
-D7
-Text Label 8300 7300 0    50   ~ 0
-D4
-Text Label 8300 7400 0    50   ~ 0
-D3
-Text Label 8300 7500 0    50   ~ 0
-D0
-Wire Wire Line
 	9400 8750 8450 8750
 Wire Wire Line
 	8450 8750 8450 7200
-Connection ~ 8450 7200
 Wire Wire Line
 	8450 7200 8550 7200
 Wire Wire Line
 	8550 7800 8550 8100
 Wire Wire Line
 	8550 8100 9050 8100
-Text GLabel 8150 7700 0    39   Input ~ 0
+Text GLabel 8350 7700 0    39   Input ~ 0
 PRN_CS
 Wire Wire Line
 	3350 5300 3350 7550
@@ -881,9 +847,9 @@ F 3 "" H 1900 8700 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1900 8650 1900 8700
-Text GLabel 5900 9150 0    39   Input ~ 0
+Text GLabel 6400 9150 0    39   Input ~ 0
 ROMA13
-Text GLabel 5900 9050 0    39   Input ~ 0
+Text GLabel 6400 9050 0    39   Input ~ 0
 ROMA14
 $Comp
 L Switch:SW_DIP_x03 SW3
@@ -919,20 +885,18 @@ Connection ~ 7925 9150
 $Comp
 L Device:R R12
 U 1 1 5B546E94
-P 6350 8450
-F 0 "R12" H 6280 8404 39  0000 R CNN
-F 1 "10K" H 6280 8495 39  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6280 8450 50  0001 C CNN
-F 3 "~" H 6350 8450 50  0001 C CNN
-	1    6350 8450
+P 6550 8450
+F 0 "R12" H 6480 8404 39  0000 R CNN
+F 1 "10K" H 6480 8495 39  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6480 8450 50  0001 C CNN
+F 3 "~" H 6550 8450 50  0001 C CNN
+	1    6550 8450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	8750 5500 8750 6050
 Wire Wire Line
 	9550 7000 10400 7000
-Wire Wire Line
-	9550 7300 10150 7300
 $Comp
 L Connector_Generic:Conn_01x03 JP1
 U 1 1 5BB8E432
@@ -959,31 +923,29 @@ F 3 "" H 15050 8350 50  0001 C CNN
 	1    15050 8350
 	1    0    0    -1  
 $EndComp
-Text GLabel 14200 8150 0    39   Input ~ 0
+Text GLabel 14750 8150 0    39   Input ~ 0
 J4-RIGHT
-Text GLabel 14200 8350 0    39   Input ~ 0
+Text GLabel 14750 8350 0    39   Input ~ 0
 J3-LEFT
-Text GLabel 14200 8550 0    39   Input ~ 0
+Text GLabel 14750 8550 0    39   Input ~ 0
 J2-DOWN
-Text GLabel 14200 8750 0    39   Input ~ 0
+Text GLabel 14750 8750 0    39   Input ~ 0
 J1-UP
-Text GLabel 14200 8650 0    39   Input ~ 0
+Text GLabel 14750 8650 0    39   Input ~ 0
 J6-FIRE
 $Comp
 L power:GND #PWR034
 U 1 1 5B891594
-P 13850 8250
-F 0 "#PWR034" H 13850 8000 50  0001 C CNN
-F 1 "GND" H 13855 8077 50  0000 C CNN
-F 2 "" H 13850 8250 50  0001 C CNN
-F 3 "" H 13850 8250 50  0001 C CNN
-	1    13850 8250
+P 14350 8250
+F 0 "#PWR034" H 14350 8000 50  0001 C CNN
+F 1 "GND" H 14355 8077 39  0000 C CNN
+F 2 "" H 14350 8250 50  0001 C CNN
+F 3 "" H 14350 8250 50  0001 C CNN
+	1    14350 8250
 	0    1    1    0   
 $EndComp
 NoConn ~ 14750 8050
 NoConn ~ 14750 7950
-Wire Wire Line
-	13850 8250 14750 8250
 $Comp
 L Device:C C3
 U 1 1 5C439DAA
@@ -1077,8 +1039,6 @@ Text GLabel 7500 9250 2    39   Input ~ 0
 JOY_EN
 Wire Wire Line
 	7450 9250 7500 9250
-Text Label 6550 9250 0    39   ~ 0
-A5
 $Comp
 L Connector_Generic:Conn_01x04 JP4
 U 1 1 5EED4274
@@ -1103,74 +1063,72 @@ NoConn ~ 1250 2400
 NoConn ~ 2650 1500
 NoConn ~ 1250 2700
 NoConn ~ 1250 1400
-Text GLabel 1100 3600 0    39   Input ~ 0
-9V
-Text GLabel 1100 2500 0    39   Input ~ 0
+Text GLabel 1250 2500 0    39   Input ~ 0
 ROMOE2
-Text GLabel 2800 3600 2    39   Input ~ 0
+Text GLabel 2650 3600 2    39   Input ~ 0
 ROMOE1
-Text GLabel 1100 2000 0    39   Input ~ 0
+Text GLabel 1250 2000 0    39   Input ~ 0
 RESET
-Text GLabel 2800 2600 2    39   Input ~ 0
+Text GLabel 2650 2600 2    39   Input ~ 0
 NMI
-Text GLabel 1100 3700 0    39   Input ~ 0
+Text GLabel 1250 3700 0    39   Input ~ 0
 P3_5V
-Text GLabel 2800 2300 2    39   Input ~ 0
+Text GLabel 2650 2300 2    39   Input ~ 0
 IORQ
-Text GLabel 2800 2400 2    39   Input ~ 0
+Text GLabel 2650 2400 2    39   Input ~ 0
 MREQ
-Text GLabel 2800 2200 2    39   Input ~ 0
+Text GLabel 2650 2200 2    39   Input ~ 0
 RD
-Text GLabel 2800 2100 2    39   Input ~ 0
+Text GLabel 2650 2100 2    39   Input ~ 0
 WR
 NoConn ~ 2650 2000
-Text GLabel 2800 3400 2    39   Input ~ 0
+Text GLabel 2650 3400 2    39   Input ~ 0
 D0
-Text GLabel 2800 3300 2    39   Input ~ 0
+Text GLabel 2650 3300 2    39   Input ~ 0
 D1
-Text GLabel 2800 3200 2    39   Input ~ 0
+Text GLabel 2650 3200 2    39   Input ~ 0
 D2
-Text GLabel 2800 3100 2    39   Input ~ 0
+Text GLabel 2650 3100 2    39   Input ~ 0
 D6
-Text GLabel 2800 3000 2    39   Input ~ 0
+Text GLabel 2650 3000 2    39   Input ~ 0
 D5
-Text GLabel 2800 2900 2    39   Input ~ 0
+Text GLabel 2650 2900 2    39   Input ~ 0
 D3
-Text GLabel 2800 2800 2    39   Input ~ 0
+Text GLabel 2650 2800 2    39   Input ~ 0
 D4
-Text GLabel 2800 3700 2    39   Input ~ 0
+Text GLabel 2650 3700 2    39   Input ~ 0
 D7
-Text GLabel 2800 3900 2    39   Input ~ 0
+Text GLabel 2650 3900 2    39   Input ~ 0
 A15
-Text GLabel 2800 3800 2    39   Input ~ 0
+Text GLabel 2650 3800 2    39   Input ~ 0
 A13
-Text GLabel 1100 3900 0    39   Input ~ 0
+Text GLabel 1250 3900 0    39   Input ~ 0
 A14
-Text GLabel 1100 3800 0    39   Input ~ 0
+Text GLabel 1250 3800 0    39   Input ~ 0
 A12
-Text GLabel 1100 3100 0    39   Input ~ 0
+Text GLabel 1250 3100 0    39   Input ~ 0
 A0
-Text GLabel 1100 3000 0    39   Input ~ 0
+Text GLabel 1250 3000 0    39   Input ~ 0
 A1
-Text GLabel 1100 2900 0    39   Input ~ 0
+Text GLabel 1250 2900 0    39   Input ~ 0
 A2
-Text GLabel 1100 2800 0    39   Input ~ 0
+Text GLabel 1250 2800 0    39   Input ~ 0
 A3
-Text GLabel 1100 1900 0    39   Input ~ 0
+Text GLabel 1250 1900 0    39   Input ~ 0
 A7
-Text GLabel 1100 1800 0    39   Input ~ 0
+Text GLabel 1250 1800 0    39   Input ~ 0
 A6
-Text GLabel 1100 1700 0    39   Input ~ 0
+Text GLabel 1250 1700 0    39   Input ~ 0
 A5
-Text GLabel 1100 1600 0    39   Input ~ 0
+Text GLabel 1250 1600 0    39   Input ~ 0
 A4
-Text GLabel 1100 1300 0    39   Input ~ 0
+Text GLabel 1250 1300 0    39   Input ~ 0
 A9
-Text GLabel 1100 1200 0    39   Input ~ 0
+Text GLabel 1250 1200 0    39   Input ~ 0
 A11
-Text GLabel 2800 1300 2    39   Input ~ 0
+Text GLabel 2650 1300 2    39   Input ~ 0
 A10
-Text GLabel 2800 1400 2    39   Input ~ 0
+Text GLabel 2650 1400 2    39   Input ~ 0
 A8
 NoConn ~ 2650 1900
 $Comp
@@ -1184,7 +1142,7 @@ F 3 "" H 1250 4300 50  0001 C CNN
 	1    1250 4300
 	1    0    0    -1  
 $EndComp
-Text GLabel 1100 1500 0    39   Input ~ 0
+Text GLabel 1250 1500 0    39   Input ~ 0
 ROM48
 $Comp
 L ZX_Spectrum:ZX_CONNECTOR_GENERIC_SORTED J1
@@ -1197,48 +1155,46 @@ F 3 "" H 2050 850 50  0001 C CNN
 	1    2000 900 
 	1    0    0    -1  
 $EndComp
-Text GLabel 3600 2950 0    39   Input ~ 0
-5V
 $Comp
 L power:GND #PWR0102
 U 1 1 5F87111D
-P 4250 3350
-F 0 "#PWR0102" H 4250 3100 50  0001 C CNN
-F 1 "GND" H 4255 3177 50  0000 C CNN
-F 2 "" H 4250 3350 50  0001 C CNN
-F 3 "" H 4250 3350 50  0001 C CNN
-	1    4250 3350
+P 4250 3300
+F 0 "#PWR0102" H 4250 3050 50  0001 C CNN
+F 1 "GND" H 4255 3127 39  0000 C CNN
+F 2 "" H 4250 3300 50  0001 C CNN
+F 3 "" H 4250 3300 50  0001 C CNN
+	1    4250 3300
 	1    0    0    -1  
 $EndComp
-Text GLabel 3400 1200 0    39   Input ~ 0
+Text GLabel 3750 1200 0    39   Input ~ 0
 A0
-Text GLabel 3400 1300 0    39   Input ~ 0
+Text GLabel 3750 1300 0    39   Input ~ 0
 A1
-Text GLabel 3400 1400 0    39   Input ~ 0
+Text GLabel 3750 1400 0    39   Input ~ 0
 A2
-Text GLabel 3400 1500 0    39   Input ~ 0
+Text GLabel 3750 1500 0    39   Input ~ 0
 A3
-Text GLabel 3400 1600 0    39   Input ~ 0
+Text GLabel 3750 1600 0    39   Input ~ 0
 A4
-Text GLabel 3400 1700 0    39   Input ~ 0
+Text GLabel 3750 1700 0    39   Input ~ 0
 A5
-Text GLabel 3400 1800 0    39   Input ~ 0
+Text GLabel 3750 1800 0    39   Input ~ 0
 A6
-Text GLabel 3400 1900 0    39   Input ~ 0
+Text GLabel 3750 1900 0    39   Input ~ 0
 A7
-Text GLabel 3400 2000 0    39   Input ~ 0
+Text GLabel 3750 2000 0    39   Input ~ 0
 A8
-Text GLabel 3400 2100 0    39   Input ~ 0
+Text GLabel 3750 2100 0    39   Input ~ 0
 A9
-Text GLabel 3400 2200 0    39   Input ~ 0
+Text GLabel 3750 2200 0    39   Input ~ 0
 A10
-Text GLabel 3400 2300 0    39   Input ~ 0
+Text GLabel 3750 2300 0    39   Input ~ 0
 A11
-Text GLabel 3400 2400 0    39   Input ~ 0
+Text GLabel 3750 2400 0    39   Input ~ 0
 A12
-Text GLabel 3400 2500 0    39   Input ~ 0
+Text GLabel 3750 2500 0    39   Input ~ 0
 ROMA13
-Text GLabel 3400 2600 0    39   Input ~ 0
+Text GLabel 3750 2600 0    39   Input ~ 0
 ROMA14
 $Comp
 L ZX_Spectrum:W27E257 U2
@@ -1251,68 +1207,64 @@ F 3 "" H 4250 1000 39  0001 C CNN
 	1    4250 1000
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 1200 2    39   Input ~ 0
+Text GLabel 4750 1200 2    39   Input ~ 0
 D0
-Text GLabel 4900 1300 2    39   Input ~ 0
+Text GLabel 4750 1300 2    39   Input ~ 0
 D1
-Text GLabel 4900 1400 2    39   Input ~ 0
+Text GLabel 4750 1400 2    39   Input ~ 0
 D2
-Text GLabel 4900 1500 2    39   Input ~ 0
+Text GLabel 4750 1500 2    39   Input ~ 0
 D3
-Text GLabel 4900 1600 2    39   Input ~ 0
+Text GLabel 4750 1600 2    39   Input ~ 0
 D4
-Text GLabel 4900 1700 2    39   Input ~ 0
+Text GLabel 4750 1700 2    39   Input ~ 0
 D5
-Text GLabel 4900 1800 2    39   Input ~ 0
+Text GLabel 4750 1800 2    39   Input ~ 0
 D6
-Text GLabel 4900 1900 2    39   Input ~ 0
+Text GLabel 4750 1900 2    39   Input ~ 0
 D7
-Text GLabel 4900 2200 2    39   Input ~ 0
+Text GLabel 4750 2200 2    39   Input ~ 0
 RD
-Text GLabel 4900 2300 2    39   Input ~ 0
+Text GLabel 4750 2300 2    39   Input ~ 0
 ROM_CS
-Text GLabel 4900 2100 2    39   Input ~ 0
-5V
-Text GLabel 5450 1300 0    39   Input ~ 0
+Text GLabel 5500 1300 0    39   Input ~ 0
 D0
-Text GLabel 5450 1400 0    39   Input ~ 0
+Text GLabel 5500 1400 0    39   Input ~ 0
 D1
-Text GLabel 5450 1500 0    39   Input ~ 0
+Text GLabel 5500 1500 0    39   Input ~ 0
 D2
-Text GLabel 5450 1600 0    39   Input ~ 0
+Text GLabel 5500 1600 0    39   Input ~ 0
 D3
-Text GLabel 5450 1700 0    39   Input ~ 0
+Text GLabel 5500 1700 0    39   Input ~ 0
 D4
-Text GLabel 5450 1800 0    39   Input ~ 0
+Text GLabel 5500 1800 0    39   Input ~ 0
 D5
-Text GLabel 5450 1900 0    39   Input ~ 0
+Text GLabel 5500 1900 0    39   Input ~ 0
 D6
-Text GLabel 5450 2000 0    39   Input ~ 0
+Text GLabel 5500 2000 0    39   Input ~ 0
 D7
 NoConn ~ 6700 1300
 NoConn ~ 6700 1400
 $Comp
 L power:GND #PWR0103
 U 1 1 5FA59A38
-P 6750 1500
-F 0 "#PWR0103" H 6750 1250 50  0001 C CNN
-F 1 "GND" V 6755 1372 50  0000 R CNN
-F 2 "" H 6750 1500 50  0001 C CNN
-F 3 "" H 6750 1500 50  0001 C CNN
-	1    6750 1500
+P 6700 1500
+F 0 "#PWR0103" H 6700 1250 50  0001 C CNN
+F 1 "GND" V 6705 1372 39  0000 R CNN
+F 2 "" H 6700 1500 50  0001 C CNN
+F 3 "" H 6700 1500 50  0001 C CNN
+	1    6700 1500
 	0    -1   -1   0   
 $EndComp
-Text GLabel 5450 2850 0    39   Input ~ 0
-5V
-Text GLabel 5450 2600 0    39   Input ~ 0
+Text GLabel 5500 2600 0    39   Input ~ 0
 RESET
-Text GLabel 5450 2450 0    39   Input ~ 0
+Text GLabel 5500 2450 0    39   Input ~ 0
 A4
-Text GLabel 5450 2350 0    39   Input ~ 0
+Text GLabel 5500 2350 0    39   Input ~ 0
 A3
-Text GLabel 5450 2250 0    39   Input ~ 0
+Text GLabel 5500 2250 0    39   Input ~ 0
 WR
-Text GLabel 5450 2150 0    39   Input ~ 0
+Text GLabel 5500 2150 0    39   Input ~ 0
 FDC_CS
 $Comp
 L ZX_Spectrum:WD1772 U1
@@ -1457,66 +1409,62 @@ Wire Wire Line
 	8100 1150 8200 1150
 Text GLabel 8100 950  1    39   Input ~ 0
 5V
-Text GLabel 2600 5200 2    39   Input ~ 0
+Text GLabel 2200 5200 2    39   Input ~ 0
 FDC_CS
-Text GLabel 2600 5400 2    39   Input ~ 0
+Text GLabel 2200 5400 2    39   Input ~ 0
 PRN_STR
-Text GLabel 2600 5500 2    39   Input ~ 0
+Text GLabel 2200 5500 2    39   Input ~ 0
 DSK_CS
-Text GLabel 2600 5600 2    39   Input ~ 0
+Text GLabel 2200 5600 2    39   Input ~ 0
 PRN_CS
 NoConn ~ 2200 5700
-Text GLabel 2600 5800 2    39   Input ~ 0
+Text GLabel 2200 5800 2    39   Input ~ 0
 RAM_CS
-Text GLabel 2600 5900 2    39   Input ~ 0
+Text GLabel 2200 5900 2    39   Input ~ 0
 ROM_CS
 $Comp
 L power:GND #PWR0104
 U 1 1 606D46C4
-P 1700 7100
-F 0 "#PWR0104" H 1700 6850 50  0001 C CNN
-F 1 "GND" H 1705 6927 50  0000 C CNN
-F 2 "" H 1700 7100 50  0001 C CNN
-F 3 "" H 1700 7100 50  0001 C CNN
-	1    1700 7100
+P 1700 7050
+F 0 "#PWR0104" H 1700 6800 50  0001 C CNN
+F 1 "GND" H 1705 6877 39  0000 C CNN
+F 2 "" H 1700 7050 50  0001 C CNN
+F 3 "" H 1700 7050 50  0001 C CNN
+	1    1700 7050
 	1    0    0    -1  
 $EndComp
-Text GLabel 950  5500 0    39   Input ~ 0
+Text GLabel 1150 5500 0    39   Input ~ 0
 MREQ
-Text GLabel 950  5200 0    39   Input ~ 0
+Text GLabel 1150 5200 0    39   Input ~ 0
 A14
-Text GLabel 950  5300 0    39   Input ~ 0
+Text GLabel 1150 5300 0    39   Input ~ 0
 A15
-Text GLabel 950  5400 0    39   Input ~ 0
+Text GLabel 1150 5400 0    39   Input ~ 0
 A13
-Text GLabel 950  5600 0    39   Input ~ 0
+Text GLabel 1150 5600 0    39   Input ~ 0
 IORQ
-Text GLabel 950  5700 0    39   Input ~ 0
+Text GLabel 1150 5700 0    39   Input ~ 0
 RD
-Text GLabel 950  5800 0    39   Input ~ 0
+Text GLabel 1150 5800 0    39   Input ~ 0
 WR
-Text GLabel 950  5900 0    39   Input ~ 0
+Text GLabel 1150 5900 0    39   Input ~ 0
 A6
-Text GLabel 950  6000 0    39   Input ~ 0
+Text GLabel 1150 6000 0    39   Input ~ 0
 A5
-Text GLabel 950  6100 0    39   Input ~ 0
+Text GLabel 1150 6100 0    39   Input ~ 0
 A4
-Text GLabel 950  6200 0    39   Input ~ 0
+Text GLabel 1150 6200 0    39   Input ~ 0
 A3
-Text GLabel 950  6300 0    39   Input ~ 0
+Text GLabel 1150 6300 0    39   Input ~ 0
 A1
-Text GLabel 950  6400 0    39   Input ~ 0
+Text GLabel 1150 6400 0    39   Input ~ 0
 A2
-Text GLabel 1100 6700 0    39   Input ~ 0
-5V
 Wire Wire Line
 	950  8200 950  6500
 Wire Wire Line
 	950  6500 1150 6500
 Wire Wire Line
 	950  8200 1900 8200
-Wire Wire Line
-	2200 5300 3350 5300
 $Comp
 L ZX_Spectrum:PAL20L8 U4
 U 1 1 60684FE5
@@ -1528,7 +1476,7 @@ F 3 "" H 1700 5000 39  0001 C CNN
 	1    1700 5000
 	1    0    0    -1  
 $EndComp
-Text GLabel 2800 1600 2    39   Input ~ 0
+Text GLabel 2650 1600 2    39   Input ~ 0
 M1
 $Comp
 L ZX_Spectrum:6264 U3
@@ -1541,71 +1489,67 @@ F 3 "" H 4450 4000 50  0001 C CNN
 	1    4450 4000
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 4150 0    39   Input ~ 0
+Text GLabel 3950 4150 0    39   Input ~ 0
 A0
-Text GLabel 3650 4250 0    39   Input ~ 0
+Text GLabel 3950 4250 0    39   Input ~ 0
 A1
-Text GLabel 3650 4350 0    39   Input ~ 0
+Text GLabel 3950 4350 0    39   Input ~ 0
 A2
-Text GLabel 3650 4450 0    39   Input ~ 0
+Text GLabel 3950 4450 0    39   Input ~ 0
 A3
-Text GLabel 3650 4550 0    39   Input ~ 0
+Text GLabel 3950 4550 0    39   Input ~ 0
 A4
-Text GLabel 3650 4650 0    39   Input ~ 0
+Text GLabel 3950 4650 0    39   Input ~ 0
 A5
-Text GLabel 3650 4750 0    39   Input ~ 0
+Text GLabel 3950 4750 0    39   Input ~ 0
 A6
-Text GLabel 3650 4850 0    39   Input ~ 0
+Text GLabel 3950 4850 0    39   Input ~ 0
 A7
-Text GLabel 3650 4950 0    39   Input ~ 0
+Text GLabel 3950 4950 0    39   Input ~ 0
 A8
-Text GLabel 3650 5050 0    39   Input ~ 0
+Text GLabel 3950 5050 0    39   Input ~ 0
 A9
-Text GLabel 3650 5150 0    39   Input ~ 0
+Text GLabel 3950 5150 0    39   Input ~ 0
 A10
-Text GLabel 3650 5250 0    39   Input ~ 0
+Text GLabel 3950 5250 0    39   Input ~ 0
 A11
-Text GLabel 3650 5350 0    39   Input ~ 0
+Text GLabel 3950 5350 0    39   Input ~ 0
 A12
 $Comp
 L power:GND #PWR0106
 U 1 1 609A4368
-P 3900 5750
-F 0 "#PWR0106" H 3900 5500 50  0001 C CNN
-F 1 "GND" V 3905 5622 50  0000 R CNN
-F 2 "" H 3900 5750 50  0001 C CNN
-F 3 "" H 3900 5750 50  0001 C CNN
-	1    3900 5750
+P 3950 5750
+F 0 "#PWR0106" H 3950 5500 50  0001 C CNN
+F 1 "GND" V 3955 5622 39  0000 R CNN
+F 2 "" H 3950 5750 50  0001 C CNN
+F 3 "" H 3950 5750 50  0001 C CNN
+	1    3950 5750
 	0    1    1    0   
 $EndComp
-Text GLabel 3650 5550 0    39   Input ~ 0
-5V
-Text GLabel 5250 4150 2    39   Input ~ 0
+Text GLabel 4950 4150 2    39   Input ~ 0
 D0
-Text GLabel 5250 4250 2    39   Input ~ 0
+Text GLabel 4950 4250 2    39   Input ~ 0
 D1
-Text GLabel 5250 4350 2    39   Input ~ 0
+Text GLabel 4950 4350 2    39   Input ~ 0
 D2
-Text GLabel 5250 4450 2    39   Input ~ 0
+Text GLabel 4950 4450 2    39   Input ~ 0
 D3
-Text GLabel 5250 4550 2    39   Input ~ 0
+Text GLabel 4950 4550 2    39   Input ~ 0
 D4
-Text GLabel 5250 4650 2    39   Input ~ 0
+Text GLabel 4950 4650 2    39   Input ~ 0
 D5
-Text GLabel 5250 4750 2    39   Input ~ 0
+Text GLabel 4950 4750 2    39   Input ~ 0
 D6
-Text GLabel 5250 4850 2    39   Input ~ 0
+Text GLabel 4950 4850 2    39   Input ~ 0
 D7
-Text GLabel 5250 5200 2    39   Input ~ 0
+Text GLabel 4950 5200 2    39   Input ~ 0
 5V
-Text GLabel 5250 5300 2    39   Input ~ 0
+Text GLabel 4950 5300 2    39   Input ~ 0
 RD
-Text GLabel 5250 5400 2    39   Input ~ 0
+Text GLabel 4950 5400 2    39   Input ~ 0
 WR
-Text GLabel 5250 5500 2    39   Input ~ 0
+Text GLabel 4950 5500 2    39   Input ~ 0
 RAM_CS
-Text GLabel 7500 5250 3    39   Input ~ 0
-5V
 NoConn ~ 7450 4900
 NoConn ~ 7450 4500
 NoConn ~ 7450 4300
@@ -1614,23 +1558,23 @@ L power:GND #PWR0107
 U 1 1 60B3165B
 P 6950 5500
 F 0 "#PWR0107" H 6950 5250 50  0001 C CNN
-F 1 "GND" H 6955 5327 50  0000 C CNN
+F 1 "GND" H 6955 5327 39  0000 C CNN
 F 2 "" H 6950 5500 50  0001 C CNN
 F 3 "" H 6950 5500 50  0001 C CNN
 	1    6950 5500
 	1    0    0    -1  
 $EndComp
-Text GLabel 6200 5200 0    39   Input ~ 0
+Text GLabel 6450 5200 0    39   Input ~ 0
 RESET
-Text GLabel 6200 5100 0    39   Input ~ 0
+Text GLabel 6450 5100 0    39   Input ~ 0
 DSK_CS
-Text GLabel 6200 4900 0    39   Input ~ 0
+Text GLabel 6450 4900 0    39   Input ~ 0
 D7
-Text GLabel 6200 4700 0    39   Input ~ 0
+Text GLabel 6450 4700 0    39   Input ~ 0
 D6
-Text GLabel 6200 4500 0    39   Input ~ 0
+Text GLabel 6450 4500 0    39   Input ~ 0
 D1
-Text GLabel 6200 4300 0    39   Input ~ 0
+Text GLabel 6450 4300 0    39   Input ~ 0
 D0
 $Comp
 L ZX_Spectrum:74LS175 U8
@@ -1656,23 +1600,21 @@ F 3 "" H 9050 6650 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 9050 8100
-Text GLabel 9600 7650 2    39   Input ~ 0
-5V
-Text GLabel 8150 6800 0    39   Input ~ 0
+Text GLabel 8350 6800 0    39   Input ~ 0
 D1
-Text GLabel 8150 6900 0    39   Input ~ 0
+Text GLabel 8350 6900 0    39   Input ~ 0
 D2
-Text GLabel 8150 7000 0    39   Input ~ 0
+Text GLabel 8350 7000 0    39   Input ~ 0
 D5
-Text GLabel 8150 7100 0    39   Input ~ 0
+Text GLabel 8350 7100 0    39   Input ~ 0
 D6
-Text GLabel 8150 7200 0    39   Input ~ 0
+Text GLabel 8350 7200 0    39   Input ~ 0
 D7
-Text GLabel 8150 7300 0    39   Input ~ 0
+Text GLabel 8350 7300 0    39   Input ~ 0
 D4
-Text GLabel 8150 7400 0    39   Input ~ 0
+Text GLabel 8350 7400 0    39   Input ~ 0
 D3
-Text GLabel 8150 7500 0    39   Input ~ 0
+Text GLabel 8350 7500 0    39   Input ~ 0
 D0
 Wire Wire Line
 	7000 6250 7000 6000
@@ -1685,23 +1627,23 @@ Wire Wire Line
 	6650 6000 7000 6000
 Text GLabel 6200 6000 0    39   Input ~ 0
 RESET
-Text GLabel 3400 8100 2    39   Input ~ 0
+Text GLabel 3100 8100 2    39   Input ~ 0
 A12
-Text GLabel 3400 8200 2    39   Input ~ 0
+Text GLabel 3100 8200 2    39   Input ~ 0
 M1
-Text GLabel 5200 8300 2    39   Input ~ 0
+Text GLabel 4800 8300 2    39   Input ~ 0
 A10
-Text GLabel 5200 8400 2    39   Input ~ 0
+Text GLabel 4800 8400 2    39   Input ~ 0
 A11
-Text GLabel 5200 8500 2    39   Input ~ 0
+Text GLabel 4800 8500 2    39   Input ~ 0
 A9
-Text GLabel 5200 8850 2    39   Input ~ 0
+Text GLabel 4800 8850 2    39   Input ~ 0
 A0
-Text GLabel 5200 8950 2    39   Input ~ 0
+Text GLabel 4800 8950 2    39   Input ~ 0
 A7
-Text GLabel 5200 9050 2    39   Input ~ 0
+Text GLabel 4800 9050 2    39   Input ~ 0
 A8
-Text GLabel 5950 9250 0    39   Input ~ 0
+Text GLabel 6450 9250 0    39   Input ~ 0
 A5
 Wire Wire Line
 	9100 10850 9100 11050
@@ -1721,8 +1663,6 @@ Wire Wire Line
 Wire Wire Line
 	10600 10850 10600 11050
 Connection ~ 10600 11050
-Text GLabel 10800 9700 2    39   Input ~ 0
-5V
 Wire Wire Line
 	10600 9850 10600 9700
 Connection ~ 10600 9700
@@ -1901,12 +1841,6 @@ Wire Wire Line
 Wire Wire Line
 	2000 10350 2000 10100
 Connection ~ 2000 10350
-Text GLabel 2000 10100 1    39   Input ~ 0
-9V
-Wire Wire Line
-	10100 8150 10100 7950
-Text GLabel 10100 7950 1    39   Input ~ 0
-5V
 Wire Wire Line
 	9850 5500 9850 5650
 Wire Wire Line
@@ -1916,18 +1850,12 @@ Wire Wire Line
 Wire Wire Line
 	10300 5650 10500 5650
 Connection ~ 10300 5650
-Text GLabel 10500 5650 2    39   Input ~ 0
-5V
 Wire Wire Line
 	9850 4650 9850 4700
 Wire Wire Line
 	9850 4700 9650 4700
-Text GLabel 9650 4700 0    39   Input ~ 0
-5V
 Wire Wire Line
-	6350 8300 6350 8150
-Text GLabel 6950 8150 2    39   Input ~ 0
-5V
+	6550 8300 6550 8150
 Wire Wire Line
 	7000 6650 7000 6750
 Wire Wire Line
@@ -1947,10 +1875,6 @@ Text GLabel 8700 800  1    39   Input ~ 0
 5V
 Wire Wire Line
 	8700 950  8700 800 
-Wire Wire Line
-	14750 8450 13800 8450
-Text GLabel 13800 8450 0    39   Input ~ 0
-5V
 $Comp
 L Switch:SW_SPST SW2
 U 1 1 62E55256
@@ -1975,8 +1899,6 @@ F 3 "~" H 7000 6450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1400 10250 1400 10000
-Text GLabel 1400 10000 1    39   Input ~ 0
-5V
 $Comp
 L ZX_Spectrum:GAL22V10 U11
 U 1 1 63379FFA
@@ -1991,58 +1913,56 @@ $EndComp
 $Comp
 L power:GND #PWR0108
 U 1 1 6337C2A9
-P 14500 5500
-F 0 "#PWR0108" H 14500 5250 50  0001 C CNN
-F 1 "GND" H 14505 5327 50  0000 C CNN
-F 2 "" H 14500 5500 50  0001 C CNN
-F 3 "" H 14500 5500 50  0001 C CNN
-	1    14500 5500
+P 14500 5450
+F 0 "#PWR0108" H 14500 5200 50  0001 C CNN
+F 1 "GND" H 14505 5277 39  0000 C CNN
+F 2 "" H 14500 5450 50  0001 C CNN
+F 3 "" H 14500 5450 50  0001 C CNN
+	1    14500 5450
 	1    0    0    -1  
 $EndComp
-Text GLabel 13650 5100 0    39   Input ~ 0
-5V
-Text GLabel 15550 3950 2    39   Input ~ 0
+Text GLabel 14950 3950 2    39   Input ~ 0
 D0
-Text GLabel 15550 4050 2    39   Input ~ 0
+Text GLabel 14950 4050 2    39   Input ~ 0
 D1
-Text GLabel 15550 4150 2    39   Input ~ 0
+Text GLabel 14950 4150 2    39   Input ~ 0
 D2
-Text GLabel 15550 4250 2    39   Input ~ 0
+Text GLabel 14950 4250 2    39   Input ~ 0
 D3
-Text GLabel 15550 4350 2    39   Input ~ 0
+Text GLabel 14950 4350 2    39   Input ~ 0
 D4
-Text GLabel 15550 4450 2    39   Input ~ 0
+Text GLabel 14950 4450 2    39   Input ~ 0
 D5
-Text GLabel 15550 4550 2    39   Input ~ 0
+Text GLabel 14950 4550 2    39   Input ~ 0
 D6
-Text GLabel 15550 4650 2    39   Input ~ 0
+Text GLabel 14950 4650 2    39   Input ~ 0
 D7
 NoConn ~ 14950 4750
-Text GLabel 15550 4850 2    39   Input ~ 0
+Text GLabel 14950 4850 2    39   Input ~ 0
 ALT_MOTOR_ON
-Text GLabel 15550 4950 2    39   Input ~ 0
+Text GLabel 14950 4950 2    39   Input ~ 0
 J6-FIRE
-Text GLabel 13650 4950 0    39   Input ~ 0
+Text GLabel 14000 4950 0    39   Input ~ 0
 J2-DOWN
-Text GLabel 13650 4850 0    39   Input ~ 0
+Text GLabel 14000 4850 0    39   Input ~ 0
 J1-UP
-Text GLabel 13650 4750 0    39   Input ~ 0
+Text GLabel 14000 4750 0    39   Input ~ 0
 J4-RIGHT
-Text GLabel 13650 4650 0    39   Input ~ 0
+Text GLabel 14000 4650 0    39   Input ~ 0
 J3-LEFT
-Text GLabel 13650 4550 0    39   Input ~ 0
+Text GLabel 14000 4550 0    39   Input ~ 0
 FDC_CS
-Text GLabel 13650 4450 0    39   Input ~ 0
+Text GLabel 14000 4450 0    39   Input ~ 0
 RD
-Text GLabel 13650 4350 0    39   Input ~ 0
+Text GLabel 14000 4350 0    39   Input ~ 0
 IORQ
-Text GLabel 13650 4250 0    39   Input ~ 0
+Text GLabel 14000 4250 0    39   Input ~ 0
 A3
-Text GLabel 13650 4150 0    39   Input ~ 0
+Text GLabel 14000 4150 0    39   Input ~ 0
 A4
-Text GLabel 13650 4050 0    39   Input ~ 0
+Text GLabel 14000 4050 0    39   Input ~ 0
 WR
-Text GLabel 13650 3950 0    39   Input ~ 0
+Text GLabel 14000 3950 0    39   Input ~ 0
 JOY_EN
 Wire Wire Line
 	12750 6150 9750 6150
@@ -2146,8 +2066,6 @@ Wire Wire Line
 	10100 8750 10750 8750
 Wire Wire Line
 	10750 7050 10750 8750
-Text Label 4000 9800 0    39   ~ 0
-5V
 Wire Wire Line
 	2800 10350 2400 10350
 Connection ~ 2400 10350
@@ -2333,8 +2251,6 @@ Wire Wire Line
 Connection ~ 14200 3050
 Wire Wire Line
 	14200 3050 14200 3200
-Text Label 2550 10350 0    39   ~ 0
-9v
 Wire Wire Line
 	10150 4400 11050 4400
 Text Label 11700 3250 1    39   ~ 0
@@ -2391,8 +2307,6 @@ F 3 "~" H 11300 4800 50  0001 C CNN
 	2    11300 4800
 	1    0    0    -1  
 $EndComp
-Text Label 11850 1400 0    39   ~ 0
-DS0
 Wire Wire Line
 	10600 4800 11100 4800
 Wire Wire Line
@@ -2423,93 +2337,26 @@ Wire Wire Line
 	11800 1400 12050 1400
 Text Label 11950 3250 1    39   ~ 0
 DS1
-Wire Wire Line
-	3600 2950 3750 2950
 NoConn ~ 3750 2850
-Text Label 6050 9050 0    39   ~ 0
-ROMA14
-Text Label 6050 9150 0    39   ~ 0
-ROMA13
-Wire Wire Line
-	5950 9250 6850 9250
 $Comp
 L power:GND #PWR0105
 U 1 1 5F44343B
-P 5400 5100
-F 0 "#PWR0105" H 5400 4850 50  0001 C CNN
-F 1 "GND" H 5405 4927 39  0000 C CNN
-F 2 "" H 5400 5100 50  0001 C CNN
-F 3 "" H 5400 5100 50  0001 C CNN
-	1    5400 5100
+P 4950 5100
+F 0 "#PWR0105" H 4950 4850 50  0001 C CNN
+F 1 "GND" H 4955 4927 39  0000 C CNN
+F 2 "" H 4950 5100 50  0001 C CNN
+F 3 "" H 4950 5100 50  0001 C CNN
+	1    4950 5100
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	6350 8150 6700 8150
+	6550 8150 6800 8150
 Wire Wire Line
-	5900 9150 6350 9150
-Connection ~ 6350 9150
+	6550 8600 6550 9150
 Wire Wire Line
-	6350 9150 6850 9150
+	6800 8150 6800 8300
 Wire Wire Line
-	4250 3350 4250 3300
-Wire Wire Line
-	1100 6700 1150 6700
-Wire Wire Line
-	1700 7100 1700 7050
-Wire Wire Line
-	3900 5750 3950 5750
-Wire Wire Line
-	6100 3300 6100 3250
-Wire Wire Line
-	5450 2850 5500 2850
-Wire Wire Line
-	5450 2600 5500 2600
-Wire Wire Line
-	5450 2450 5500 2450
-Wire Wire Line
-	5450 2350 5500 2350
-Wire Wire Line
-	5450 2250 5500 2250
-Wire Wire Line
-	5450 2150 5500 2150
-Wire Wire Line
-	5450 2000 5500 2000
-Wire Wire Line
-	5450 1900 5500 1900
-Wire Wire Line
-	5450 1800 5500 1800
-Wire Wire Line
-	5450 1700 5500 1700
-Wire Wire Line
-	5450 1600 5500 1600
-Wire Wire Line
-	5450 1500 5500 1500
-Wire Wire Line
-	5450 1400 5500 1400
-Wire Wire Line
-	5450 1300 5500 1300
-Wire Wire Line
-	6700 1500 6750 1500
-Wire Wire Line
-	14500 5500 14500 5450
-Wire Wire Line
-	9550 7650 9600 7650
-Wire Wire Line
-	6350 8600 6350 9150
-Text Label 6650 8150 0    39   ~ 0
-5V
-Wire Wire Line
-	5900 9050 6700 9050
-Wire Wire Line
-	6700 8150 6700 8300
-Connection ~ 6700 8150
-Wire Wire Line
-	6700 8150 6950 8150
-Wire Wire Line
-	6700 8600 6700 9050
-Connection ~ 6700 9050
-Wire Wire Line
-	6700 9050 6850 9050
+	6800 8600 6800 9050
 Wire Wire Line
 	7450 5150 7500 5150
 Wire Wire Line
@@ -2517,12 +2364,12 @@ Wire Wire Line
 $Comp
 L Device:R R11
 U 1 1 639F6631
-P 6700 8450
-F 0 "R11" H 6630 8404 39  0000 R CNN
-F 1 "10K" H 6630 8495 39  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6630 8450 50  0001 C CNN
-F 3 "~" H 6700 8450 50  0001 C CNN
-	1    6700 8450
+P 6800 8450
+F 0 "R11" H 6730 8404 39  0000 R CNN
+F 1 "10K" H 6730 8495 39  0000 R CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 6730 8450 50  0001 C CNN
+F 3 "~" H 6800 8450 50  0001 C CNN
+	1    6800 8450
 	-1   0    0    1   
 $EndComp
 Text Label 7400 2750 0    39   ~ 0
@@ -2535,16 +2382,6 @@ Text Label 7400 2450 0    39   ~ 0
 WDWG
 Text Label 7400 2350 0    39   ~ 0
 WDWD
-Text Label 9600 7500 0    39   ~ 0
-P3
-Text Label 9600 7400 0    39   ~ 0
-P9
-Text Label 9600 7300 0    39   ~ 0
-P11
-Text Label 9600 6900 0    39   ~ 0
-P7
-Text Label 9600 6800 0    39   ~ 0
-P5
 Text Label 12450 7050 0    39   ~ 0
 P21
 Text Label 12450 6850 0    39   ~ 0
@@ -2555,10 +2392,6 @@ Text Label 12450 6650 0    39   ~ 0
 P13
 Text Label 12450 6550 0    39   ~ 0
 P11
-Text Label 9600 7200 0    39   ~ 0
-P17
-Text Label 9600 7100 0    39   ~ 0
-P15
 Text Label 12450 6450 0    39   ~ 0
 P9
 Text Label 12450 6350 0    39   ~ 0
@@ -2569,454 +2402,8 @@ Text Label 12450 6150 0    39   ~ 0
 P3
 Text Label 12450 6050 0    39   ~ 0
 P1
-Text Label 9600 7000 0    39   ~ 0
-P13
-Text Label 1000 5200 0    39   ~ 0
-A14
-Wire Wire Line
-	950  5200 1150 5200
-Wire Wire Line
-	950  5300 1150 5300
-Wire Wire Line
-	950  5400 1150 5400
-Wire Wire Line
-	950  5500 1150 5500
-Wire Wire Line
-	950  5600 1150 5600
-Wire Wire Line
-	950  5700 1150 5700
-Wire Wire Line
-	950  5800 1150 5800
-Wire Wire Line
-	950  5900 1150 5900
-Wire Wire Line
-	950  6000 1150 6000
-Wire Wire Line
-	950  6100 1150 6100
-Wire Wire Line
-	950  6400 1150 6400
-Wire Wire Line
-	950  6300 1150 6300
-Wire Wire Line
-	950  6200 1150 6200
-Text Label 1000 5300 0    39   ~ 0
-A15
-Text Label 1000 5400 0    39   ~ 0
-A13
-Text Label 1000 5500 0    39   ~ 0
-MREQ
-Text Label 1000 5600 0    39   ~ 0
-IORQ
-Text Label 1000 5700 0    39   ~ 0
-RD
-Text Label 1000 5800 0    39   ~ 0
-WR
-Text Label 1000 5900 0    39   ~ 0
-A6
-Text Label 1000 6000 0    39   ~ 0
-A5
-Text Label 1000 6100 0    39   ~ 0
-A4
-Text Label 1000 6200 0    39   ~ 0
-A3
-Text Label 1000 6300 0    39   ~ 0
-A1
-Text Label 1000 6400 0    39   ~ 0
-A2
-Wire Wire Line
-	2200 5200 2600 5200
-Wire Wire Line
-	2200 5400 2600 5400
-Wire Wire Line
-	2200 5500 2600 5500
-Wire Wire Line
-	2200 5600 2600 5600
-Wire Wire Line
-	2200 5800 2600 5800
-Wire Wire Line
-	2200 5900 2600 5900
-Text Label 2250 5900 0    39   ~ 0
-ROM_CS
-Text Label 2250 5800 0    39   ~ 0
-RAM_CS
-Text Label 2250 5600 0    39   ~ 0
-PRN_CS
-Text Label 2250 5500 0    39   ~ 0
-DSK_CS
-Text Label 2250 5400 0    39   ~ 0
-PRN_STR
-Text Label 2250 5200 0    39   ~ 0
-FDC_CS
-Text Label 4550 7400 0    39   ~ 0
-SELROM3
-Text Label 4550 7650 0    39   ~ 0
-SELROM48
 Wire Wire Line
 	4450 7650 4950 7650
-Text Label 6250 5100 0    39   ~ 0
-DSK_CS
-Wire Wire Line
-	6200 5100 6450 5100
-Wire Wire Line
-	6200 5200 6450 5200
-Wire Wire Line
-	6200 4900 6450 4900
-Wire Wire Line
-	6200 4700 6450 4700
-Wire Wire Line
-	6200 4500 6450 4500
-Wire Wire Line
-	6200 4300 6450 4300
-Text Label 6250 5200 0    39   ~ 0
-RESET
-Text Label 6250 4900 0    39   ~ 0
-D7
-Text Label 6250 4700 0    39   ~ 0
-D6
-Text Label 6250 4500 0    39   ~ 0
-D1
-Text Label 6250 4300 0    39   ~ 0
-D0
-Wire Wire Line
-	4950 5100 5400 5100
-Wire Wire Line
-	4950 5200 5250 5200
-Wire Wire Line
-	4950 5300 5250 5300
-Wire Wire Line
-	4950 5400 5250 5400
-Wire Wire Line
-	4950 5500 5250 5500
-Wire Wire Line
-	4950 4850 5250 4850
-Wire Wire Line
-	4950 4750 5250 4750
-Wire Wire Line
-	4950 4650 5250 4650
-Wire Wire Line
-	4950 4550 5250 4550
-Wire Wire Line
-	4950 4450 5250 4450
-Wire Wire Line
-	4950 4350 5250 4350
-Wire Wire Line
-	4950 4250 5250 4250
-Wire Wire Line
-	4950 4150 5250 4150
-Text Label 5000 5500 0    39   ~ 0
-RAM_CS
-Text Label 5000 5400 0    39   ~ 0
-WR
-Text Label 5000 5300 0    39   ~ 0
-RD
-Text Label 5000 5200 0    39   ~ 0
-5V
-Text Label 5000 4850 0    39   ~ 0
-D7
-Text Label 5000 4750 0    39   ~ 0
-D6
-Text Label 5000 4650 0    39   ~ 0
-D5
-Text Label 5000 4550 0    39   ~ 0
-D4
-Text Label 5000 4450 0    39   ~ 0
-D3
-Text Label 5000 4350 0    39   ~ 0
-D2
-Text Label 5000 4250 0    39   ~ 0
-D1
-Text Label 5000 4150 0    39   ~ 0
-D0
-Wire Wire Line
-	3650 5550 3950 5550
-Wire Wire Line
-	3650 5350 3950 5350
-Wire Wire Line
-	3650 5250 3950 5250
-Wire Wire Line
-	3650 5150 3950 5150
-Wire Wire Line
-	3650 5050 3950 5050
-Wire Wire Line
-	3650 4950 3950 4950
-Wire Wire Line
-	3650 4850 3950 4850
-Wire Wire Line
-	3650 4750 3950 4750
-Wire Wire Line
-	3650 4650 3950 4650
-Wire Wire Line
-	3650 4550 3950 4550
-Wire Wire Line
-	3650 4450 3950 4450
-Wire Wire Line
-	3650 4350 3950 4350
-Wire Wire Line
-	3650 4250 3950 4250
-Wire Wire Line
-	3650 4150 3950 4150
-Text Label 3750 5350 0    39   ~ 0
-A12
-Text Label 3750 5250 0    39   ~ 0
-A11
-Text Label 3750 5150 0    39   ~ 0
-A10
-Text Label 3750 5050 0    39   ~ 0
-A9
-Text Label 3750 4950 0    39   ~ 0
-A8
-Text Label 3750 4850 0    39   ~ 0
-A7
-Text Label 3750 4750 0    39   ~ 0
-A6
-Text Label 3750 4650 0    39   ~ 0
-A5
-Text Label 3750 4550 0    39   ~ 0
-A4
-Text Label 3750 4450 0    39   ~ 0
-A3
-Text Label 3750 4350 0    39   ~ 0
-A2
-Text Label 3750 4250 0    39   ~ 0
-A1
-Text Label 3750 4150 0    39   ~ 0
-A0
-Text Label 3750 5550 0    39   ~ 0
-5V
-Wire Wire Line
-	4800 9050 5200 9050
-Wire Wire Line
-	4800 8950 5200 8950
-Wire Wire Line
-	4800 8850 5200 8850
-Wire Wire Line
-	4800 8500 5200 8500
-Wire Wire Line
-	4800 8400 5200 8400
-Wire Wire Line
-	4800 8300 5200 8300
-Text Label 4900 8300 0    39   ~ 0
-A10
-Text Label 4900 8400 0    39   ~ 0
-A11
-Text Label 4900 8500 0    39   ~ 0
-A9
-Text Label 4900 8850 0    39   ~ 0
-A0
-Text Label 4900 8950 0    39   ~ 0
-A7
-Text Label 4900 9050 0    39   ~ 0
-A8
-Wire Wire Line
-	3100 8100 3400 8100
-Wire Wire Line
-	3100 8200 3400 8200
-Text Label 3150 8200 0    39   ~ 0
-M1
-Text Label 3150 8100 0    39   ~ 0
-A12
-Wire Wire Line
-	8150 7700 8550 7700
-Text Label 8300 7700 0    39   ~ 0
-PRN_CS
-Wire Wire Line
-	1100 1500 1250 1500
-Wire Wire Line
-	1100 1600 1250 1600
-Wire Wire Line
-	1100 1700 1250 1700
-Wire Wire Line
-	1100 1800 1250 1800
-Wire Wire Line
-	1100 1900 1250 1900
-Wire Wire Line
-	1100 2000 1250 2000
-Wire Wire Line
-	1100 1300 1250 1300
-Wire Wire Line
-	1100 1200 1250 1200
-Wire Wire Line
-	1100 2500 1250 2500
-Wire Wire Line
-	1100 2800 1250 2800
-Wire Wire Line
-	1100 2900 1250 2900
-Wire Wire Line
-	1100 3000 1250 3000
-Wire Wire Line
-	1100 3100 1250 3100
-Wire Wire Line
-	2650 1300 2800 1300
-Wire Wire Line
-	2650 1400 2800 1400
-Wire Wire Line
-	2650 1600 2800 1600
-Wire Wire Line
-	2650 2100 2800 2100
-Wire Wire Line
-	2650 2200 2800 2200
-Wire Wire Line
-	2650 2300 2800 2300
-Wire Wire Line
-	2650 2400 2800 2400
-Wire Wire Line
-	2650 2600 2800 2600
-Wire Wire Line
-	2650 2800 2800 2800
-Wire Wire Line
-	2650 2900 2800 2900
-Wire Wire Line
-	2650 3000 2800 3000
-Wire Wire Line
-	2650 3100 2800 3100
-Wire Wire Line
-	2650 3200 2800 3200
-Wire Wire Line
-	2650 3300 2800 3300
-Wire Wire Line
-	2650 3400 2800 3400
-Wire Wire Line
-	2650 3600 2800 3600
-Wire Wire Line
-	2650 3700 2800 3700
-Wire Wire Line
-	2650 3800 2800 3800
-Wire Wire Line
-	2650 3900 2800 3900
-Wire Wire Line
-	4750 2300 4900 2300
-Wire Wire Line
-	4750 2200 4900 2200
-Wire Wire Line
-	4750 2100 4900 2100
-Wire Wire Line
-	4750 1900 4900 1900
-Wire Wire Line
-	4750 1800 4900 1800
-Wire Wire Line
-	4750 1700 4900 1700
-Wire Wire Line
-	4750 1600 4900 1600
-Wire Wire Line
-	4750 1500 4900 1500
-Wire Wire Line
-	4750 1400 4900 1400
-Wire Wire Line
-	4750 1300 4900 1300
-Wire Wire Line
-	4750 1200 4900 1200
-Wire Wire Line
-	14950 3950 15550 3950
-Wire Wire Line
-	14950 4050 15550 4050
-Wire Wire Line
-	14950 4150 15550 4150
-Wire Wire Line
-	14950 4250 15550 4250
-Wire Wire Line
-	14950 4350 15550 4350
-Wire Wire Line
-	14950 4450 15550 4450
-Wire Wire Line
-	14950 4550 15550 4550
-Wire Wire Line
-	14950 4650 15550 4650
-Wire Wire Line
-	14950 4850 15550 4850
-Wire Wire Line
-	14950 4950 15550 4950
-Text Label 15050 4950 0    39   ~ 0
-J6-FIRE
-Text Label 15050 4850 0    39   ~ 0
-ALT_MOTOR_ON
-Text Label 15050 4650 0    39   ~ 0
-D7
-Text Label 15050 4550 0    39   ~ 0
-D6
-Text Label 15050 4450 0    39   ~ 0
-D5
-Text Label 15050 4350 0    39   ~ 0
-D4
-Text Label 15050 4250 0    39   ~ 0
-D3
-Text Label 15050 4150 0    39   ~ 0
-D2
-Text Label 15050 4050 0    39   ~ 0
-D1
-Text Label 15050 3950 0    39   ~ 0
-D0
-Wire Wire Line
-	13650 5100 14000 5100
-Wire Wire Line
-	13650 4950 14000 4950
-Wire Wire Line
-	13650 4850 14000 4850
-Wire Wire Line
-	13650 4750 14000 4750
-Wire Wire Line
-	13650 4650 14000 4650
-Wire Wire Line
-	13650 4550 14000 4550
-Wire Wire Line
-	13650 4450 14000 4450
-Wire Wire Line
-	13650 4350 14000 4350
-Wire Wire Line
-	13650 4250 14000 4250
-Wire Wire Line
-	13650 4150 14000 4150
-Wire Wire Line
-	13650 4050 14000 4050
-Wire Wire Line
-	13650 3950 14000 3950
-Text Label 13700 4950 0    39   ~ 0
-J2-DOWN
-Text Label 13700 4850 0    39   ~ 0
-J1-UP
-Text Label 13700 4750 0    39   ~ 0
-J4-RIGHT
-Text Label 13700 4650 0    39   ~ 0
-J3-LEFT
-Text Label 13700 4550 0    39   ~ 0
-FDC_CS
-Text Label 13700 4450 0    39   ~ 0
-RD
-Text Label 13700 4350 0    39   ~ 0
-IORQ
-Text Label 13700 4250 0    39   ~ 0
-A3
-Text Label 13700 4150 0    39   ~ 0
-A4
-Text Label 13700 4050 0    39   ~ 0
-WR
-Text Label 13700 3950 0    39   ~ 0
-JOY-EN
-Text Label 13700 5100 0    39   ~ 0
-5V
-Wire Wire Line
-	14200 8750 14750 8750
-Wire Wire Line
-	14200 8650 14750 8650
-Wire Wire Line
-	14200 8550 14750 8550
-Wire Wire Line
-	14200 8350 14750 8350
-Wire Wire Line
-	14200 8150 14750 8150
-Text Label 14300 8150 0    39   ~ 0
-J4-RIGHT
-Text Label 14300 8350 0    39   ~ 0
-J3-LEFT
-Text Label 14300 8550 0    39   ~ 0
-J2-DOWN
-Text Label 14300 8650 0    39   ~ 0
-J6-FIRE
-Text Label 14300 8750 0    39   ~ 0
-J1-UP
-Text Label 14300 8450 0    39   ~ 0
-5V
-Text Label 14300 8250 0    39   ~ 0
-GND
 Wire Wire Line
 	1250 3400 800  3400
 Wire Wire Line
@@ -3036,75 +2423,238 @@ Wire Wire Line
 	800  2600 800  3300
 Connection ~ 800  3300
 Wire Wire Line
-	3400 2500 3750 2500
-Wire Wire Line
-	3400 2600 3750 2600
-Text Label 3450 2500 0    39   ~ 0
-ROMA13
-Text Label 3450 2600 0    39   ~ 0
-ROMA14
-Wire Wire Line
-	3400 2400 3750 2400
-Wire Wire Line
-	3400 2300 3750 2300
-Wire Wire Line
-	3400 2200 3750 2200
-Wire Wire Line
-	3400 2100 3750 2100
-Wire Wire Line
-	3400 2000 3750 2000
-Wire Wire Line
-	3400 1900 3750 1900
-Wire Wire Line
-	3400 1800 3750 1800
-Wire Wire Line
-	3400 1700 3750 1700
-Wire Wire Line
-	3400 1600 3750 1600
-Wire Wire Line
-	3400 1500 3750 1500
-Wire Wire Line
-	3400 1400 3750 1400
-Wire Wire Line
-	3400 1300 3750 1300
-Wire Wire Line
-	3400 1200 3750 1200
-Text Label 3450 2400 0    39   ~ 0
-A12
-Text Label 3450 2300 0    39   ~ 0
-A11
-Text Label 3450 2200 0    39   ~ 0
-A10
-Text Label 3450 2100 0    39   ~ 0
-A9
-Text Label 3450 2000 0    39   ~ 0
-A8
-Text Label 3450 1900 0    39   ~ 0
-A7
-Text Label 3450 1800 0    39   ~ 0
-A6
-Text Label 3450 1700 0    39   ~ 0
-A5
-Text Label 3450 1600 0    39   ~ 0
-A4
-Text Label 3450 1500 0    39   ~ 0
-A3
-Text Label 3450 1400 0    39   ~ 0
-A2
-Text Label 3450 1300 0    39   ~ 0
-A1
-Text Label 3450 1200 0    39   ~ 0
-A0
-Wire Wire Line
 	2500 7550 2850 7550
-Text Label 2600 7550 0    39   ~ 0
-NMI
+Wire Wire Line
+	3350 5300 2200 5300
+Wire Wire Line
+	8350 7500 8550 7500
+Wire Wire Line
+	8350 7400 8550 7400
+Wire Wire Line
+	8350 7300 8550 7300
+Wire Wire Line
+	8350 7200 8450 7200
+Connection ~ 8450 7200
+Wire Wire Line
+	8350 7100 8550 7100
+Wire Wire Line
+	8350 7000 8550 7000
+Wire Wire Line
+	8350 6900 8550 6900
+Wire Wire Line
+	8350 6800 8550 6800
+Wire Wire Line
+	8350 7700 8550 7700
+Wire Wire Line
+	14750 8250 14350 8250
+Wire Wire Line
+	9550 7300 10150 7300
+$Comp
+L power:+5V #PWR0111
+U 1 1 60489406
+P 3750 2950
+F 0 "#PWR0111" H 3750 2800 50  0001 C CNN
+F 1 "+5V" V 3765 3077 39  0000 L CNN
+F 2 "" H 3750 2950 50  0001 C CNN
+F 3 "" H 3750 2950 50  0001 C CNN
+	1    3750 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0112
+U 1 1 605C1858
+P 5500 2850
+F 0 "#PWR0112" H 5500 2700 50  0001 C CNN
+F 1 "+5V" V 5400 2850 39  0000 L CNN
+F 2 "" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0113
+U 1 1 60602E94
+P 10800 9700
+F 0 "#PWR0113" H 10800 9550 50  0001 C CNN
+F 1 "+5V" V 10815 9828 39  0000 L CNN
+F 2 "" H 10800 9700 50  0001 C CNN
+F 3 "" H 10800 9700 50  0001 C CNN
+	1    10800 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0114
+U 1 1 606447B0
+P 1400 10000
+F 0 "#PWR0114" H 1400 9850 50  0001 C CNN
+F 1 "+5V" H 1415 10173 50  0000 C CNN
+F 2 "" H 1400 10000 50  0001 C CNN
+F 3 "" H 1400 10000 50  0001 C CNN
+	1    1400 10000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0115
+U 1 1 6079450C
+P 4750 2100
+F 0 "#PWR0115" H 4750 1950 50  0001 C CNN
+F 1 "+5V" V 4765 2228 39  0000 L CNN
+F 2 "" H 4750 2100 50  0001 C CNN
+F 3 "" H 4750 2100 50  0001 C CNN
+	1    4750 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14750 8450 14350 8450
+$Comp
+L power:+5V #PWR0116
+U 1 1 6098F8C7
+P 14350 8450
+F 0 "#PWR0116" H 14350 8300 50  0001 C CNN
+F 1 "+5V" V 14365 8577 39  0000 L CNN
+F 2 "" H 14350 8450 50  0001 C CNN
+F 3 "" H 14350 8450 50  0001 C CNN
+	1    14350 8450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0117
+U 1 1 609C0FDA
+P 9550 7650
+F 0 "#PWR0117" H 9550 7500 50  0001 C CNN
+F 1 "+5V" V 9565 7778 39  0000 L CNN
+F 2 "" H 9550 7650 50  0001 C CNN
+F 3 "" H 9550 7650 50  0001 C CNN
+	1    9550 7650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR0118
+U 1 1 609F211F
+P 10100 8000
+F 0 "#PWR0118" H 10100 7850 50  0001 C CNN
+F 1 "+5V" H 10115 8165 39  0000 C CNN
+F 2 "" H 10100 8000 50  0001 C CNN
+F 3 "" H 10100 8000 50  0001 C CNN
+	1    10100 8000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 8000 10100 8150
+$Comp
+L power:+5V #PWR0119
+U 1 1 60A24AC3
+P 7150 8150
+F 0 "#PWR0119" H 7150 8000 50  0001 C CNN
+F 1 "+5V" V 7165 8278 39  0000 L CNN
+F 2 "" H 7150 8150 50  0001 C CNN
+F 3 "" H 7150 8150 50  0001 C CNN
+	1    7150 8150
+	0    1    1    0   
+$EndComp
+Connection ~ 6800 8150
+Wire Wire Line
+	6800 8150 7150 8150
+Wire Wire Line
+	6550 9150 6850 9150
+Wire Wire Line
+	6800 9050 6850 9050
+Wire Wire Line
+	6400 9050 6800 9050
+Connection ~ 6800 9050
+Wire Wire Line
+	6400 9150 6550 9150
+Connection ~ 6550 9150
+Wire Wire Line
+	6450 9250 6850 9250
+$Comp
+L power:+5V #PWR0120
+U 1 1 60BCBECA
+P 1150 6700
+F 0 "#PWR0120" H 1150 6550 50  0001 C CNN
+F 1 "+5V" V 1050 6750 39  0000 L CNN
+F 2 "" H 1150 6700 50  0001 C CNN
+F 3 "" H 1150 6700 50  0001 C CNN
+	1    1150 6700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0121
+U 1 1 60C2F724
+P 3950 5550
+F 0 "#PWR0121" H 3950 5400 50  0001 C CNN
+F 1 "+5V" V 3965 5677 39  0000 L CNN
+F 2 "" H 3950 5550 50  0001 C CNN
+F 3 "" H 3950 5550 50  0001 C CNN
+	1    3950 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0122
+U 1 1 60D19A58
+P 7500 5250
+F 0 "#PWR0122" H 7500 5100 50  0001 C CNN
+F 1 "+5V" H 7515 5415 39  0000 C CNN
+F 2 "" H 7500 5250 50  0001 C CNN
+F 3 "" H 7500 5250 50  0001 C CNN
+	1    7500 5250
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0123
+U 1 1 60D4C2CC
+P 14000 5100
+F 0 "#PWR0123" H 14000 4950 50  0001 C CNN
+F 1 "+5V" V 14015 5227 39  0000 L CNN
+F 2 "" H 14000 5100 50  0001 C CNN
+F 3 "" H 14000 5100 50  0001 C CNN
+	1    14000 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+9V #PWR0124
+U 1 1 60DAB386
+P 1100 3600
+F 0 "#PWR0124" H 1100 3450 50  0001 C CNN
+F 1 "+9V" V 1115 3727 39  0000 L CNN
+F 2 "" H 1100 3600 50  0001 C CNN
+F 3 "" H 1100 3600 50  0001 C CNN
+	1    1100 3600
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
 	1100 3600 1250 3600
-Wire Wire Line
-	1100 3700 1250 3700
-Wire Wire Line
-	1100 3800 1250 3800
-Wire Wire Line
-	1100 3900 1250 3900
+$Comp
+L power:+9V #PWR0125
+U 1 1 60DDC6C1
+P 2000 10100
+F 0 "#PWR0125" H 2000 9950 50  0001 C CNN
+F 1 "+9V" H 2015 10265 39  0000 C CNN
+F 2 "" H 2000 10100 50  0001 C CNN
+F 3 "" H 2000 10100 50  0001 C CNN
+	1    2000 10100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0126
+U 1 1 60E40825
+P 9650 4700
+F 0 "#PWR0126" H 9650 4550 50  0001 C CNN
+F 1 "+5V" V 9665 4827 39  0000 L CNN
+F 2 "" H 9650 4700 50  0001 C CNN
+F 3 "" H 9650 4700 50  0001 C CNN
+	1    9650 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0127
+U 1 1 60E6FA8D
+P 10500 5650
+F 0 "#PWR0127" H 10500 5500 50  0001 C CNN
+F 1 "+5V" V 10515 5778 39  0000 L CNN
+F 2 "" H 10500 5650 50  0001 C CNN
+F 3 "" H 10500 5650 50  0001 C CNN
+	1    10500 5650
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
