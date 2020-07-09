@@ -1,5 +1,5 @@
 Drill report for U:\PCBs\ZX Spectrum\PlusD_Clone_MOD_1_2\PlusD_Clone_MOD_1_2.kicad_pcb
-Created on 07-07-2020 10:54:53 PM
+Created on 09-07-2020 8:39:40 AM
 
 Copper Layer Stackup:
     =============================================================
@@ -10,7 +10,7 @@ Copper Layer Stackup:
 Drill file 'PlusD_Clone_MOD_1_2-PTH.drl' contains
     plated through holes:
     =============================================================
-    T1  0,40mm  0,016"  (100 holes)
+    T1  0,40mm  0,016"  (105 holes)
     T2  0,50mm  0,020"  (24 holes)
     T3  0,80mm  0,031"  (292 holes)
     T4  0,90mm  0,035"  (10 holes)
@@ -21,7 +21,7 @@ Drill file 'PlusD_Clone_MOD_1_2-PTH.drl' contains
     T9  3,20mm  0,126"  (2 holes)
     T10  3,50mm  0,138"  (3 holes)
 
-    Total plated holes count 523
+    Total plated holes count 528
 
 
 Drill file 'PlusD_Clone_MOD_1_2-NPTH.drl' contains
