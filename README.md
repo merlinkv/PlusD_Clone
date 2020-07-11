@@ -4,6 +4,10 @@ A MOD of the PlusD clone made by alvaroalea
 
 WORK IN PROGRESS I CAN'T GARANTEE THAT IT WORKS AT THE MOMENT !!
 
+# July 11, 2020
+
+* Corrected footprint of U2 (W27E257)
+
 # July 6, 2020
 
 * Added a SPDT switch ON-ON to select between ZX 48K/128K & +2A/+3
