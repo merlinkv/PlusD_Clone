@@ -7,6 +7,7 @@ WORK IN PROGRESS I CAN'T GARANTEE THAT IT WORKS AT THE MOMENT !!
 # July 11, 2020
 
 * Corrected footprint of U2 (W27E257)
+* Everything seems to be OK. Ordering 5 PCB's to test.
 
 # July 6, 2020
 
