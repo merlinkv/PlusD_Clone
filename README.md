@@ -2,7 +2,9 @@
 
 A MOD of the PlusD clone made by alvaroalea
 
-WORK IN PROGRESS I CAN'T GARANTEE THAT IT WORKS AT THE MOMENT !!
+# July 27, 2020
+
+Tested & working 100%
 
 # July 11, 2020
 
