@@ -1,10 +1,11 @@
-# PlusD_Clone_MOD 1.2
+# PlusD_Clone_MOD 1.3
 
 A MOD of the PlusD clone based on the designs made by @Pachuquin & @alvaroalea
 
 # July 27, 2020
 
 Tested & working 100%
+* In this version of the board IC 7805 has been removed. The interface power is taken from the + 5V line of the expansion bus.
 
 # July 11, 2020
 
