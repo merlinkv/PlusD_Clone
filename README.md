@@ -1,6 +1,6 @@
 # PlusD_Clone_MOD 1.2
 
-A MOD of the PlusD clone originally made by @Pachuquin & @alvaroalea
+A MOD of the PlusD clone based on the designs made by @Pachuquin & @alvaroalea
 
 # July 27, 2020
 
@@ -39,6 +39,8 @@ The Advantege of this interfaz over the original are:
 
 # Links
 
+* https://www.winuaespanol.com/phpbb3/viewtopic.php?p=7182#p7182
 * https://github.com/alvaroalea/plusD-clone
+* https://www.va-de-retro.com/foros/viewtopic.php?f=63&t=5561
 
 
