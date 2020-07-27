@@ -1,4 +1,4 @@
-# PlusD_Clone_MOD 1.3
+# PlusD Clone 1.3
 
 ZX PlusD clone for all ZX Spectrums.
 
