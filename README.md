@@ -1,6 +1,6 @@
 # PlusD Clone 1.3
 
-ZX PlusD clone for all ZX Spectrums.
+ZX PlusD clone for all ZX Spectrum computers.
 
 # July 27, 2020
 
