@@ -1,4 +1,4 @@
-17072440815638907
+17105922392079110
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -50259,13 +50259,6 @@ solder jumper open
 0
 5
 3
-L7805
-78XXS
-<b>VOLTAGE REGULATOR</b>
-
-0
-3
-3
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -51336,6 +51329,153 @@ Yellow 5381 Series LED VCCLite https://vcclite.com/wp-content/uploads/wpallimpor
 Yellow 5381 Series LED
 0
 2
+2
+MegaDuino
+Arduino_Mega2560Pro_Embed
+
+
+0
+86
+86
+MegaDuino
+Audio Jack 3.5 PCB
+
+
+0
+5
+5
+MegaDuino
+BarrelJack_Horizontal
+DC Barrel Jack
+Power Jack
+0
+3
+3
+MegaDuino
+Buzzer_12x9.5RM7.6
+Generic Buzzer, D12mm height 9.5mm with RM7.6mm
+buzzer
+0
+2
+2
+MegaDuino
+CP_Elec_6.3x7.7
+SMD capacitor, aluminum electrolytic, Nichicon, 6.3x7.7mm
+capacitor electrolytic
+0
+2
+2
+MegaDuino
+C_Rect_L7.2mm_W2.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2
+C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*2.5mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
+C Rect series Radial pin pitch 5.00mm  length 7.2mm width 2.5mm Capacitor
+0
+2
+2
+MegaDuino
+DIP-8_W7.62mm_LongPads
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+8
+8
+MegaDuino
+Jack_2.5mm_Mono_Horizontal_Mini
+
+
+0
+3
+2
+MegaDuino
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+MegaDuino
+MountingHole_3.2mm_M3_Pad_Via
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+9
+1
+MegaDuino
+PAM8406_Module
+
+
+0
+0
+0
+MegaDuino
+PinHeader_1x04_P2.54mm_Horizontal_2
+
+
+0
+4
+4
+MegaDuino
+PinHeader_1x06_P2.54mm_Horizontal
+Through hole angled pin header, 1x06, 2.54mm pitch, 6mm pin length, single row
+Through hole angled pin header THT 1x06 2.54mm single row
+0
+6
+6
+MegaDuino
+PinHeader_2x09_P2.54mm_Vertical
+Through hole straight pin header, 2x09, 2.54mm pitch, double rows
+Through hole pin header THT 2x09 2.54mm double row
+0
+18
+18
+MegaDuino
+Potentiometer_Piher_PT-6-V_Vertical
+Potentiometer, vertical, Piher PT-6-V, http://www.piher-nacesa.com/pdf/11-PT6v03.pdf
+Potentiometer vertical Piher PT-6-V
+0
+3
+3
+MegaDuino
+R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal
+Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=7.62mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf
+Resistor Axial_DIN0207 series Axial Horizontal pin pitch 7.62mm 0.25W = 1/4W length 6.3mm diameter 2.5mm
+0
+2
+2
+MegaDuino
+SD_Kyocera_145638109511859+
+SD Card Connector, Reverse Type, Outer Tail, Spring Eject Type (https://global.kyocera.com/prdct/electro/product/pdf/5638.pdf)
+sd card smt
+0
+13
+12
+MegaDuino
+SW_CuK_JS202011AQN_DPDT_Angled
+CuK sub miniature slide switch, JS series, DPDT, right angle, http://www.ckswitches.com/media/1422/js.pdf
+switch DPDT
+0
+6
+6
+MegaDuino
+SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm
+4x-dip-switch SPST , Slide, row spacing 7.62 mm (300 mils), body size 9.78x12.34mm (see e.g. https://www.ctscorp.com/wp-content/uploads/206-208.pdf)
+DIP Switch SPST Slide 7.62mm 300mil
+0
+8
+8
+MegaDuino
+SW_ON_ON_SPDT_TH
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
+3
+MegaDuino
+SW_PUSH_6mm
+https://www.omron.com/ecb/products/pdf/en-b3f.pdf
+tact sw push 6mm
+0
+4
 2
 Module
 A20_OLINUXINO_LIME2
@@ -74817,6 +74957,13 @@ ZX_48K_EDGE
 54
 ZX_Spectrum
 ZX_CONNECTOR_GENERIC_SORTED
+
+
+0
+54
+54
+ZX_Spectrum
+ZX_EDGE_CONN
 
 
 0
