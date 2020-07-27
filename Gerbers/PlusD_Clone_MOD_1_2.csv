@@ -22,7 +22,7 @@
 21;"SW1";"SW_PUSH_6mm";1;"RESET";;;
 22;"U7";"DIP-20_W7.62mm_Socket_LongPads";1;"74LS374";;;
 23;"U8";"DIP-16_W7.62mm_Socket_LongPads";1;"74LS175";;;
-24;"U4";"DIP-24_W7.62mm_Socket_LongPads";1;"PAL20L8";;;
+24;"U4";"DIP-24_W7.62mm_Socket_LongPads";1;"GAL20V8B";;;
 25;"U3";"DIP-28_W15.24mm_Socket_LongPads";1;"6264";;;
 26;"U1";"DIP-28_W15.24mm_Socket_LongPads";1;"WD1772";;;
 27;"R10,R6";"R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal";2;"680";;;
