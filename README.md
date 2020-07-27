@@ -1,6 +1,6 @@
 # PlusD_Clone_MOD 1.3
 
-A MOD of the PlusD clone based on the designs made by @Pachuquin & @alvaroalea
+ZX PlusD clone for all ZX Spectrums.
 
 # July 27, 2020
 
@@ -23,6 +23,9 @@ Tested & working 100%
 * Changed the DIP switch for ROM selection and Joystick ON-OFF for a DIP Switch Piano style.
 * Electrolytic capacitors are now SMD
 
+# Notes
+
+* Based on the designs made by @Pachuquin & @alvaroalea
 
 # Original description by alvaroalea
 
