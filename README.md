@@ -1,6 +1,6 @@
 # PlusD_Clone_MOD 1.2
 
-A MOD of the PlusD clone made by alvaroalea
+A MOD of the PlusD clone originally made by @Pachuquin & @alvaroalea
 
 # July 27, 2020
 
