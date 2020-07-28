@@ -25,7 +25,7 @@ Tested & working 100%
 
 # Notes
 
-* Based on the designs made by @Pachuquin & @alvaroalea
+* Based on the designs by @Pachuquin & @alvaroalea
 
 # Original description by alvaroalea
 
