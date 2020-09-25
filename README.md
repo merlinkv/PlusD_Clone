@@ -1,6 +1,16 @@
-# PlusD Clone 1.3
+# PlusD Clone 1.4
 
 ZX PlusD clone for all ZX Spectrum computers.
+
+# September 25, 2020
+
+* In this version the solder pads to select the READY signal has been removed.
+* Now you can fin a connector of 4x2 pins to put the jumpers.
+     
+     Up    x x x x    Cable selector (AT or Shugart)
+     Down  x x x x    READY signal 9REL or EMU
+      
+     See attached pictures.
 
 # July 27, 2020
 
