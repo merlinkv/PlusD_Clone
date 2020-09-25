@@ -7,8 +7,8 @@ ZX PlusD clone for all ZX Spectrum computers.
 * In this version the solder pads to select the READY signal has been removed.
 * Now you can fin a connector of 4x2 pins to put the jumpers.
      
-     * Up      x x x x    Cable selector (AT or Shugart)
-     * Down    x x x x    READY signal selector, REAL or EMU
+     * Upper row: Cable selector (AT or Shugart)
+     * Bottom row: READY signal selector, REAL or EMU
       
      See attached pictures.
 
