@@ -1,2 +1,4 @@
 (sym_lib_table
+  (lib (name PlusD_Clone_1_3-rescue)(type Legacy)(uri ${KIPRJMOD}/PlusD_Clone_1_3-rescue.lib)(options "")(descr ""))
+  (lib (name PlusD_Clone_1_4-rescue)(type Legacy)(uri ${KIPRJMOD}/PlusD_Clone_1_4-rescue.lib)(options "")(descr ""))
 )
