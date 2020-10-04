@@ -1,0 +1,9 @@
+### Module positions - created on 07/09/20 23:44:41 ###
+### Printed by Pcbnew version kicad (5.1.6)-1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+C14       100u/16v  C_Elec_6.3x5.4     104.7380  -102.0000  180.0000  top
+C17       100u/16v  C_Elec_6.3x5.8      94.7420  -105.9180  270.0000  top
+C18       100u/16v  C_Elec_6.3x5.4     104.7380  -110.5000  180.0000  top
+## End
