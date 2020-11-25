@@ -4,7 +4,7 @@ ZX PlusD clone for all ZX Spectrum computers.
 
 # October 16, 2020
 
-* Resistors, capacitors & diodes now are SMD 1206
+* Resistors, capacitors (except the two electrolytics) & diodes now are SMD 1206
 * Some minor changes
 
 # September 25, 2020
