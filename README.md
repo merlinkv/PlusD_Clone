@@ -40,7 +40,8 @@ Tested & working 100%
 
 # Notes
 
-For the IC for floppy controler two IC's can be used: WD1772 (02-00 & 02-02 versions) and the VL1772-02PC. Unfortunately they are hard to find at reasonable prices.
+Two types can be used as the IC for floppy disk controller: WD1772 (versions 02-00 and 02-02) and VL1772-02PC.
+Unfortunately, they are difficult to find at reasonable prices.
 
 The IC WD1773, probably can be used, but the interface has been only tested with WD1772 and VL1772-02PC
 
