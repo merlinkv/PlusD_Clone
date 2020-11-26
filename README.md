@@ -1,6 +1,11 @@
-# PlusD Clone 1.5
+# PlusD Clone 1.6
 
 ZX PlusD clone for all ZX Spectrum computers.
+
+# November 25, 2020
+
+* The solder pad used to select the floppy drive controller IC has been removed. The floppy drive controller IC's that can be used are: WD1772-02-00, WD1772-02-02 & VL1772-02PC
+* Some minor changes.
 
 # October 16, 2020
 
@@ -42,8 +47,6 @@ Tested & working 100%
 
 Two types can be used as the IC for floppy disk controller: WD1772 (versions 02-00 and 02-02) and VL1772-02PC.
 Unfortunately, they are difficult to find at reasonable prices.
-
-The IC WD1773, probably can be used, but the interface has been only tested with WD1772 and VL1772-02PC
 
 The Advantege of this interfaz over the original are:
 
