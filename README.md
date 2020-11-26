@@ -4,7 +4,8 @@ ZX PlusD clone for all ZX Spectrum computers.
 
 # November 25, 2020
 
-* The solder pad used to select the floppy drive controller IC has been removed. The floppy drive controller IC's that can be used are: WD1772-02-00, WD1772-02-02 & VL1772-02PC
+* The solder pad used to select the floppy drive controller IC has been removed.
+The floppy drive controller IC's that can be used are: WD1772-02-00, WD1772-02-02 & VL1772-02PC
 * Some minor changes.
 
 # October 16, 2020
@@ -48,13 +49,13 @@ Tested & working 100%
 Two types can be used as the IC for floppy disk controller: WD1772 (versions 02-00 and 02-02) and VL1772-02PC.
 Unfortunately, they are difficult to find at reasonable prices.
 
-The Advantege of this interfaz over the original are:
+The advantages of this interface over the original are:
 
 * 4 Banks of ROM, so you can swap between G+Dos and Unidos, selectable by dip-switches
 * Included Fixed for +2A/+3, so can be used in any ZX Spectrum, selection by switch
 * Kempston Joystick Interface included, can be disable by dip-switch
 * Reset Button
-* Posibility of use crossed and plain floppy cable, and invert Drive 1 and Drive 2, very usefull if you have a Gotek and a real floppy.
+* Posibility of use crossed or plain floppy cable, and invert Drive 1 and Drive 2, very usefull if you have a Gotek and a real floppy.
 
 # Links
 
