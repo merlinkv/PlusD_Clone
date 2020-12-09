@@ -5,8 +5,8 @@ $Descr A3 16535 11693
 encoding utf-8
 Sheet 1 1
 Title "+D Disk Interface Clone"
-Date "2020-10-16"
-Rev "1.5"
+Date "2020-12-01"
+Rev "1.6"
 Comp "MerlinKV"
 Comment1 "For any ZX Spectrum"
 Comment2 "New design by MerlinKV"
@@ -1356,8 +1356,8 @@ $Comp
 L ZX_Spectrum:6264 IC3
 U 1 1 60991D62
 P 4450 4000
-F 0 "IC3" H 4450 4093 39  0000 C CNN
-F 1 "6224/62256" H 4450 4018 39  0000 C CNN
+F 0 "IC3" H 4450 4093 47  0000 C CNN
+F 1 "6264/62256" H 4450 4018 47  0000 C CNN
 F 2 "Package_DIP:DIP-28_W15.24mm_Socket_LongPads" H 4450 4000 50  0001 C CNN
 F 3 "" H 4450 4000 50  0001 C CNN
 	1    4450 4000
