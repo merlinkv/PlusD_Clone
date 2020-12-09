@@ -26,7 +26,7 @@
 25;"IC7";"DIP-20_W7.62mm_Socket_LongPads";1;"74LS374";;;
 26;"IC8";"DIP-16_W7.62mm_Socket_LongPads";1;"74LS175";;;
 27;"IC4";"DIP-24_W7.62mm_Socket_LongPads";1;"GAL20V8B";;;
-28;"IC3";"DIP-28_W15.24mm_Socket_LongPads";1;"6224/62256";;;
+28;"IC3";"DIP-28_W15.24mm_Socket_LongPads";1;"6264/62256";;;
 29;"IC1";"DIP-28_W15.24mm_Socket_LongPads";1;"WD1772";;;
 30;"J1";"ZX_CONNECTOR_GENERIC_SORTED";1;"ZX_CONNECTOR_GENERIC_SORTED";;;
 31;"J3";"PinHeader_2x13_P2.54mm_Vertical";1;"PARALLEL_CONNECTOR";;;
