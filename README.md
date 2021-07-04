@@ -10,7 +10,7 @@ your own programs as well!
 
 # PlusD Clone 1.6
 
-My ZX PlusD clone can be used on all ZX Spectrum computers just using a little switch (you don't need a "fixer" for +2A, +2B or +3 models). Also you can select one of the two ROMs included: GDOS & Uni-Dos (up to four ROMs can be used).
+My ZX PlusD Clone can be used on all ZX Spectrum computers just using a little switch (you don't need a "fixer" for +2A, +2B or +3 models). Also you can select one of the two ROMs included: GDOS & Uni-Dos (up to four ROMs can be used).
 
 # November 25, 2020
 
