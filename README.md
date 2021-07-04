@@ -1,6 +1,6 @@
 # Description
 
-The PlusD (or +D) was a floppy disk and printer interface for the Sinclair ZX Spectrum home computer, developed as a successor to Miles Gordon Technology's earlier product, the DISCiPLE. It runs the GDOS or Uni-Dos operating systems and you can use up to two 3.5" floppy drives at the same time.
+The PlusD (or +D) was a floppy disk and printer interface for the Sinclair ZX Spectrum home computer, developed as a successor to Miles Gordon Technology's earlier product, the DISCiPLE. It runs the GDOS or Uni-Dos operating systems and you can connect up to two 3.5" floppy drives.
 
 The PlusD will allow you to save all your games and serious software to disc at the touch of a button for reloading at any time in the future. With the fastest load and
 save times of any disc system available for the Spectrum, the PLUS D will make your computer grow to meet your needs today and tomorrow! In the software arena, many
