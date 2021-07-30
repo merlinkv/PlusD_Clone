@@ -6,6 +6,8 @@
 * You may not use the material for commercial purposes.
 * You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 
+This interface is based on the original PlusD (+D) interface from Miles Gordon Technology and the clone designs by @Pachuquin & @alvaroalea.
+
 
 # Original short description
 
