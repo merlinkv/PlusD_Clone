@@ -23,6 +23,10 @@ your own programs as well!
 
 My ZX PlusD Clone can be used on all ZX Spectrum computers just using a little switch (you don't need a "fixer" for +2A, +2B or +3 models). Also you can select one of the two ROMs included (GDOS & Uni-Dos -up to four ROMs can be used-) and play almost all games with the integrated Kempston Joystick interface.
 
+# July 30, 2021
+
+* Corrected some IC labels on the board.
+
 # November 25, 2020
 
 * The solder pad used to select the floppy drive controller IC has been removed.
