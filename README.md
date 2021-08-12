@@ -8,6 +8,15 @@
 
 This interface is based on the original PlusD (+D) interface from Miles Gordon Technology and the clone designs by @Pachuquin & @alvaroalea.
 
+# ATTENTION
+
+This project was made for the retro community and not for resale on eBay or other auction sites. So only retro hardware forums and individual people can build this project.
+
+IT'S NOT FOR SALE ON EBAY OR OTHER AUCTIONS SITES.
+
+# Note
+
+I take no responsibiltiy for any damage to any equipment that results from the use of this board. USE AT YOUR OWN RISK!
 
 # Original short description
 
