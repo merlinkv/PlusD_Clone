@@ -12,7 +12,7 @@ This interface is based on the original PlusD (+D) interface from Miles Gordon T
 
 This project was made for the retro community and not for resale on eBay or other auction sites. So only retro hardware forums and individual people can build this project.
 
-IT'S NOT FOR SALE ON EBAY OR OTHER AUCTIONS SITES.
+IT'S NOT FOR SALE ON EBAY OR OTHER AUCTION SITES.
 
 # Note
 
