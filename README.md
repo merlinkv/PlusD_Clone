@@ -32,7 +32,7 @@ your own programs as well!
 
 My ZX PlusD Clone can be used on all ZX Spectrum computers just using a little switch (you don't need a "fixer" for +2A, +2B or +3 models). Also you can select one of the two ROMs included (GDOS & Uni-Dos -up to four ROMs can be used-) and play almost all games with the integrated Kempston Joystick interface.
 
-- [Interactive BOM](https://htmlpreview.github.io/?https://github.com/merlinkv/PlusD_Clone/blob/master/ZX_PlusD_Clone_1_6.html)
+- [Interactive BOM](https://htmlpreview.github.io/?https://github.com/merlinkv/PlusD_Clone/blob/master/PlusD%20Clone%201.6.html)
 
 # July 30, 2021
 
