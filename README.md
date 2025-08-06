@@ -32,7 +32,7 @@ your own programs as well!
 
 * Added Fire2 button on Kempston interface. Now you can play games that are ready for two buttons or modified to add this possibility like on some games modded by @mad3001 at the VDR site: [Games with Fire2](https://www.va-de-retro.com/foros/viewtopic.php?t=12277)
 
-- [Interactive BOM](https://htmlpreview.github.io/?https://github.com/merlinkv/PlusD_Clone/blob/master/PlusD%20Clone%201.7.html)
+- [Interactive BOM](https://htmlpreview.github.io/?https://github.com/merlinkv/PlusD_Clone/blob/master/PlusD%20Clone%201_7.html)
 
 # PlusD Clone 1.6
 
