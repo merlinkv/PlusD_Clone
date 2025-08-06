@@ -28,11 +28,15 @@ leading companies are now producing software that is specifically tailored to th
 And if some of your software is Microdrive compatible, so much the better! The PLUS D will add a new dimension to all your existing software, greatly enhancing all
 your own programs as well!
 
+# August 6, 2025 - PlusD Clone 1.7
+
+* Added Fire2 button on Kempston interface. Now you can play games that are ready for two buttons or modified to add this possibility like on some games modded by @mad3001 at the VDR site (https://www.va-de-retro.com/foros/viewtopic.php?t=12277)
+
+- [Interactive BOM](https://htmlpreview.github.io/?https://github.com/merlinkv/PlusD_Clone/blob/master/PlusD%20Clone%201.7.html)
+
 # PlusD Clone 1.6
 
 My ZX PlusD Clone can be used on all ZX Spectrum computers just using a little switch (you don't need a "fixer" for +2A, +2B or +3 models). Also you can select one of the two ROMs included (GDOS & Uni-Dos -up to four ROMs can be used-) and play almost all games with the integrated Kempston Joystick interface.
-
-- [Interactive BOM](https://htmlpreview.github.io/?https://github.com/merlinkv/PlusD_Clone/blob/master/PlusD%20Clone%201.6.html)
 
 # July 30, 2021
 
